@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set character set and viewport for responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Set the title of the document -->
+    <title>Transforming Square Animation</title>
+</head>
+<style>
+    /* Styles for the container div */
+    div {
+        width: 150px; /* Set the initial width of the container */
+        height: 150px; /* Set the initial height of the container */
+        margin: 20px; /* Set margin around the container */
+        padding: 10px; /* Set padding within the container */
+        background-color: #ff9100; /* Set the background color of the container */
+        border-radius: 10%; /* Apply border-radius for rounded corners */
+        transition: width 1s, height 0.4s, transform 0.5s; /* Apply transitions for width, height, and transform properties */
+    }
+
+    /* Hover styles for the container div */
+    div:hover {
+        width: 250px; /* Increase the width of the container on hover */
+        height: 250px; /* Increase the height of the container on hover */
+        transform: rotate(180deg); /* Rotate the container by 180 degrees on hover */
+    }
+</style>
+<body>
+    <!-- Container div that transforms on hover -->
+    <div></div>
+</body>
+</html>
