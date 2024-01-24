@@ -1,0 +1,1 @@
+# square-rotate-animation
